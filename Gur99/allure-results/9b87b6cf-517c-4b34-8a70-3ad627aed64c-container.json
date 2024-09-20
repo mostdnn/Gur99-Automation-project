@@ -1,0 +1,1 @@
+{"uuid":"9b87b6cf-517c-4b34-8a70-3ad627aed64c","name":"Base.basetest.beformethod","children":["caad615f-3cd8-4548-9f7f-c665fec547d6"],"description":"","befores":[{"name":"beformethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1726875776770,"stop":1726875782146}],"afters":[],"start":1726875776770,"stop":1726875782146}
