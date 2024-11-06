@@ -1,24 +1,28 @@
-Selenium Test Automation Framework
-Overview
-This is a Selenium Test Automation Framework designed to automate web application testing using the Page Object Model (POM) design pattern, TestNG for test management, Allure Report for test reporting, and Data-Driven Testing for parameterized test cases. The framework is compatible with IntelliJ IDEA as the primary IDE.
+# Selenium Test Automation Framework
 
-Key Features:
-TestNG for test execution and assertion
-Page Object Model (POM) for better maintainability
-Data-Driven Testing using Excel or CSV
-Allure Reports for detailed visual reports
-Selenium WebDriver for cross-browser testing
-Configuration files for different environments (optional)
-Test Framework Architecture
+## Overview
+This is a **Selenium Test Automation Framework** designed to automate web application testing using the **Page Object Model (POM)** design pattern, **TestNG** for test management, **Allure Report** for test reporting, and **Data-Driven Testing** for parameterized test cases. The framework is compatible with **IntelliJ IDEA** as the primary IDE.
 
-Prerequisites
+## Key Features:
+- **TestNG** for test execution and reporting
+- **Page Object Model (POM)** for better maintainability
+- **Data-Driven Testing** using **Excel** or **CSV**
+- **Allure Reports** for detailed visual reports
+- **Selenium WebDriver** for cross-browser testing
+- **JUnit** for assertions and running tests (optional)
+- Configuration files for different environments (optional)
+
+![Test Framework Architecture](assets/framework-architecture.png)
+
+## Prerequisites
 Before you begin, ensure that you have the following installed:
+- **Java JDK 8+**
+- **Maven** (dependency management)
+- **IntelliJ IDEA** (IDE)
+- **Allure Commandline** (for generating reports)
 
-Java JDK 8+
-Maven (dependency management)
-IntelliJ IDEA (IDE)
-Allure Commandline (for generating reports)
-Project Structure
+## Project Structure
+```bash
 ├── pom.xml               # Maven project file
 ├── src
 │   ├── main
@@ -34,8 +38,6 @@ Project Structure
 ├── target                # Allure and test output
 └── README.md             # Project documentation
 
-
-
 How to Run Tests
 Run from IntelliJ:
 Right-click on the Test class or TestNG.xml file and select Run.
@@ -50,4 +52,13 @@ bash
 
 allure serve target/allure-results
 Conclusion
-This framework provides a reliable and maintainable approach to web automation testing using Selenium, TestNG, and Allure Reporting. It follows the Page Object Model (POM) design pattern for better separation of concerns.
+This framework provides a reliable and maintainable approach to web automation testing using Selenium, TestNG, and Allure Reporting. It follows the Page Object Model (POM) design pattern for better separation of concerns.vbnet
+
+
+. **Conclusion**
+By using the correct **Markdown syntax** for formatting and embedding images, charts, and other elements, your `README.md` will render beautifully on GitHub. Make sure to commit the images to the repository if you’re using local paths. Use relative paths for images and other assets to keep everything together in the project.
+
+
+
+
+
