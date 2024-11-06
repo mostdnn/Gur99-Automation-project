@@ -51,13 +51,13 @@ After running the tests, generate the Allure report by using the following comma
 bash
 
 allure serve target/allure-results
+
+
+
+
 Conclusion
-This framework provides a reliable and maintainable approach to web automation testing using Selenium, TestNG, and Allure Reporting. It follows the Page Object Model (POM) design pattern for better separation of concerns.vbnet
 
-
-. **Conclusion**
-By using the correct **Markdown syntax** for formatting and embedding images, charts, and other elements, your `README.md` will render beautifully on GitHub. Make sure to commit the images to the repository if you’re using local paths. Use relative paths for images and other assets to keep everything together in the project.
-
+This framework provides a reliable and maintainable approach to web automation testing using Selenium, TestNG, and Allure Reporting. It follows the Page Object Model (POM) design pattern for better separation of concerns.
 
 
 
